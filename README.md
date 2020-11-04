@@ -1,5 +1,5 @@
 --------------------------------------------------
-git clone https://github.com/EH30/pureddo
+git clone https://github.com/sEfee/cathackddosruv2
 
 cd cathackddosruv2
 
