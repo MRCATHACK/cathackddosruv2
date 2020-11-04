@@ -6,7 +6,7 @@ import random
 from banner import access
 
 ########################################
-# Herşey kendi sorumluluğunuzdadır.    #
+# Herşey kendi sorumlulugunuzdadır.    #
 ########################################
 # Tool Alıntıdır lütfen küfür etmeyin. #
 ########################################
