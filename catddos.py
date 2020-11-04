@@ -6,9 +6,9 @@ import random
 from banner import access
 
 ########################################
-# Herşey kendi sorumlulugunuzdadır.    #
+# Hersey kendi sorumlulugunuzdadır.    #
 ########################################
-# Tool Alıntıdır lütfen küfür etmeyin. #
+# Tool Alıntıdır lutfen kufur etmeyin. #
 ########################################
 
 """
