@@ -17,6 +17,10 @@ Created By: MR.CATHACK
 
 Follow: https://www.instagram.com/mrcathack/
 """
+#!/usr/bin/python
+# -*- coding: ascii -*-
+import os, sys
+...
 
 
 if sys.platform == "linux" or sys.platform == "linux2":
