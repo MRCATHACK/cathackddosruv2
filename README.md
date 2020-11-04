@@ -1,2 +1,6 @@
 # cathackddosruv2
-cathackddos
+--------------------------------------------------
+git clone https://github.com/EH30/pureddos
+cd cathackddosruv2
+python catddos.py
+--------------------------------------------------
